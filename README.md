@@ -11,6 +11,7 @@ The **Sales Data Warehouse (DWH) Project** is designed to integrate, transform, 
 5. **Goal**: Enable efficient reporting and analysis of sales data
 
 ## 📁 Project Structure
+```bash
 ├── Sales_ETL/
 │   ├── dim_customere.dtsx
 │   ├── dim_date.dtsx
@@ -24,7 +25,7 @@ The **Sales Data Warehouse (DWH) Project** is designed to integrate, transform, 
 │   ├── 3-dim_territory.sql 
 │   └── 4-dim_date.sql
 | 	├── 5-fact_sales_.sql
-
+```
 ## 🔎 Data Flow
 1. **Extract**: Data is sourced from the AdventureWorks database via SSIS packages.
 2. **Transform**: Data cleansing, deduplication, and conforming dimensions.
@@ -57,7 +58,7 @@ The DWH follows a **Star Schema** structure:
 ## 🚀 Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/sales-dwh.git
+   git clone https://github.com/ahmedwalid98/Sales_DWH.git
 	 ```
 2. Restore the AdventureWorks database (if not already installed).
 
